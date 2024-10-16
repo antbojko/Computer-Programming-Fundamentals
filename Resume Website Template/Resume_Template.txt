@@ -1,0 +1,47 @@
+[Anthony Bojkovski]
+[22 Spring Creek Drive]
+[Waterdown, Hamilton, l8b1v7]
+[Anthony.bojkovski@gmail.com]
+[226-773-0380]
+
+Objective:
+[I would like to be a full stack developer in the near future, and I would like to achieve a managerial position in my next role.]
+
+Education:
+[Bachelor of Arts]
+[York University, 2024]
+[Relevant Coursework: Computer Engineering 1003]
+
+Experience:
+[Junior Level Developer in Java]
+[IBM, Madison Square, New York]
+[7.15.22] - [8.13.23]
+
+- [Provided solutions on the Watson]
+- [Fulfilled all IT solutions with a 25 person developer team]
+- [Developed new rules for understanding Watson]
+
+[Junior Level Developer, HTML]
+[Oracle, Meadowvale, Missisauga]
+[Start Date] - [End Date]
+
+- [Worked on Call]
+- [Led multiple meetings]
+- [Expanded my understanding of HTML]
+
+Skills:
+- Programming Languages: [JavaScript, Java, HTML, CSS, C++,]
+- Tools/Frameworks: [VSCode]
+- [Project Managment]
+
+Certifications:
+- [Certification JavaScript, HTML, CSS, George Brown College, 2024]
+
+Projects:
+- [Watson, AI, and Junior Developer]
+
+Interests:
+- [Reading, writing, solving puzzles]
+
+References:
+Tony Stark, 489-995-2826.
