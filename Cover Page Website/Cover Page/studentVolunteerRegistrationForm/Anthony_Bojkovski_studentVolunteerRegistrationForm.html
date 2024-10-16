@@ -1,0 +1,74 @@
+<!-- Developer: Anthony Bojkovski-->
+<!-- Purpose: Using HTML to create a student registration form with specific field definitions-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Volunteer Registration</title>
+    <link rel="stylesheet" href="./assets/css/Anthony_Bojkovski_studentVolunteerRegistrationForm.css" />
+    <link rel="icon" href="weatherNetworkClone/assets/images/favicon-16x16.png" />
+
+<body>
+    <header class="headerCustom">
+        <!-- Enter heading text here -->
+        <h1> Student Volunteer Registration </h1>
+      </header>
+
+ <!-- Form start -->
+<form
+    action="https://wp.zybooks.com/form-viewer.php" method="POST">
+
+    <section class="sectionInputFields">
+        <label for="first name">First Name:</label><br><br>
+        <input type="text" id="name" name="First Name"   class="styled-input" placeholder="Enter your first name"><br><br>
+
+        <label for="last name">Last Name:</label><br><br>
+        <input type="lastName" id="LastName" name="Last Name"  class="styled-input" placeholder="Enter your last name"><br><br>
+
+        <label for="email">Email:</label><br><br>
+        <input type="email" id="Email" name="Email" class="styled-input" placeholder="username@emaildomain.com"><br><br>
+
+        <label for="phone">Phone:</label><br><br>
+        <input type="phone" id="Phone" name="Phone" class="styled-input" placeholder="(###)-###-####"><br><br>
+
+        <label for="date">Date of Birth:</label><br><br>
+        <input type="date" id="date" name="Date of Birth" class="styled-input" placeholder="yyyy-mm-dd"><br><br>
+    </section>
+
+    <section class="sectionRadioFields">
+        <label><strong>Grade Year:</strong></label><br><br>
+        <input type="radio" id="Grade Year" name="Grade Year" class="styled-button" value="First Year">
+        <label for="firstYear">First Year</label><br>
+        <input type="radio" id="Grade Year" name="Grade Year" class="styled-button" value="Second Year">
+        <label for="secondYear">Second Year</label><br>
+        <input type="radio" id="Grade Year" name="Grade Year" class="styled-button" value="Third Year">
+        <label for="thirdYear">Third Year</label><br>
+        <input type="radio" id="Grade Year" name="Grade Year" class="styled-button"  value="Fourth Year">
+        <label for="fourthYear">Fourth Year</label><br><br>
+    </section>
+
+    <section class="sectionCheckBox">       
+       <label><strong>Availability:</strong></label><br><br>
+        <input type="checkbox" id="Sunday" name="Sunday" class="styled-button">
+        <label for="sunday">Sunday</label>
+        <input type="checkbox" id="Monday" name="Monday" class="styled-button">
+        <label for="monday">Monday</label>
+        <input type="checkbox" id="Tuesday" name="Tuesday" class="styled-button">
+        <label for="tuesday">Tuesday</label>
+        <input type="checkbox" id="Wedensday" name="Wedensday" class="styled-button">
+        <label for="wedensday">Wedensday</label>
+        <input type="checkbox" id="Thursday" name="Thursday" class="styled-button">
+        <label for="thursday">Thursday</label>
+        <input type="checkbox" id="Friday" name="Friday" class="styled-button">
+        <label for="friday">Friday</label>
+        <input type="checkbox" id="Saturday" name="Saturday" class="styled-button">
+        <label for="saturday">Saturday</label><br><br>
+    </section>
+<!-- Enter submit button here-->
+    <br><input type="submit" class="buttonCustom" value="Submit">
+<!-- Form ends here-->
+    </form>
+</body>
+</html>
