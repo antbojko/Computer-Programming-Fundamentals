@@ -1,0 +1,56 @@
+/* Developer: Anthony Bojkovski*/
+/* Purpose: Creating visual style for fan club web page*/
+
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color:lightskyblue;
+}
+
+header {
+  background-color:darkblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color:black;
+  color: white;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.gallery-img {
+  width: 53%;
+  height: 50%;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #3b3b3b;
+  color: white;
+}
