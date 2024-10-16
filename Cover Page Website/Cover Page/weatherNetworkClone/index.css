@@ -1,0 +1,35 @@
+/*
+  Developer Name: Anthony Bojkovski
+  Purpose: Using CSS for Weather page visuals (index.html)
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+.weather-container {
+  text-align: center;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.day {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 150px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
