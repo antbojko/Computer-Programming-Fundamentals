@@ -1,0 +1,70 @@
+/* Developer: Anthony Bojkovski*/
+/* Purpose: Using CSS to create a visual style for student volunteer registration forms */
+
+body {
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   background-color: aliceblue;
+
+}
+
+.headerCustom {
+  color:blue;
+  background-color:gold;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 50px;
+  border: 2px solid blue;
+}
+
+.sectionInputFields {
+  font-weight: 700;
+}
+
+.styled-button {
+  cursor: pointer;
+}
+
+
+.styled-input {
+  width: 300px;                  /* Set the width of the input */
+  height: 14px;
+  padding: 10px;                 /* Add padding inside the input */
+  border: 2px solid blue;     /* blue border */
+  border-radius: 5px;            /* Rounded corners */
+  transition: 0.3s;  /* Smooth transition for border color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color:beige;
+  cursor:pointer;
+}
+
+.styled-input:hover {
+  background-color:aqua; /* Lighter blue on hover */
+}
+
+.styled-input:focus {
+  border-color:forestgreen;          /* Change border color on focus */
+  outline: none;                  /* Remove default outline */
+}
+
+.styled-input::placeholder {
+  color: #888;                    /* Placeholder text color */
+  opacity: 1;                     /* Ensure opacity for placeholder */
+}
+
+.buttonCustom {
+  background-color:gold; /* Green background color */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  border: 2px solid blue; /* Remove border */
+  color:blue; /* White text color */
+  padding: 15px 32px; /* Padding for the button */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline on text */
+  display: inline-block; /* Display as inline block */
+  font-size: 18px; /* Font size */
+  margin: 4px 2px; /* Margin between the button and other elements */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 10px; /* Rounded corners */
+}
