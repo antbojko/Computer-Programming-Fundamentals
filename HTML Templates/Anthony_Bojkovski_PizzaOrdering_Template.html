@@ -1,0 +1,81 @@
+<!--
+    Developer Name: Anthony Bojkovski
+    Purpose: Creating a Anthony Bojkovski Pizza Ordering Template using HTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anthony Bojkovski Pizza Ordering Template</title>
+    <link rel="stylesheet" href="Anthony_Bojkovski_PizzaOrdering_Template.css" />
+    <link rel="icon" href="favicon-16x16.png" />
+  </head>
+  <body>
+    <header class="headerCustom">
+      <!-- Enter heading text here -->
+      <h1> Build your own Pizza </h1>
+    </header>
+
+    <!-- Form start -->
+    <form
+action="https://wp.zybooks.com/form-viewer.php" method="POST">
+    <section class="sectionPizzaSize">
+      
+      <h2>Pizza Size</h2>
+      
+      <!--Enter the revelant input tags here --> 
+      <input type="radio" name="Pizza Size" value="Small">
+      <label for="Small">Small</label><br>
+
+      <input type="radio" name="Pizza Size" value=Medium>
+      <label for="Medium">Medium</label><br>
+
+      <input type="radio" name="Pizza Size" value="Large">
+      <label for="Large">Large</label><br>
+
+      <input type="radio" name="Pizza Size" value="X-Large">
+      <label for="X-Large">X-Large</label><br>
+     
+    </section>
+      
+
+    <section class="sectionPizzaSauce">
+      <h2>Pizza Sauce</h2>
+      <!--Enter the revelant input tags here -->
+
+      <input type="checkbox" id="checkbox1" name="Pizza Sauce" value="Tomato Sauce">
+      <label for="checkbox1">Tomato Sauce</label><br>
+
+      <input type="checkbox" id="checkbox2" name="Pizza Sauce" value="White Sauce">
+      <label for="checkbox2">White Sauce</label><br>
+
+      <input type="checkbox" id="checkbox3" name="Pizza Sauce" value="Garlic Sauce">
+      <label for="checkbox3">Garlic Sauce</label><br>
+    </section>
+
+    <section class="sectionPizzaTopping">
+      <h2>Pizza Toppings</h2>
+      <!--Enter the revelant input tags here -->
+      
+      <input type="checkbox" id="checkbox4" name="Pizza Toppings" value="Pepperoni">
+      <label for="checkbox4">Pepperoni</label><br>
+
+      <input type="checkbox" id="checkbox5" name="Pizza Toppings" value="Mozarella">
+      <label for="checkbox5">Mozzarella</label><br>
+
+      <input type="checkbox" id="checkbox6" name="Pizza Toppings" value="Onion">
+      <label for="checkbox6">Onion</label><br>
+
+      <input type="checkbox" id="checkbox7" name="Pizza Toppings" value="Green Pepper">
+      <label for="checkbox7">Green Pepper</label><br>
+
+    </section>
+
+    <!-- Enter submit button here -->
+      <input type="submit" class="buttonCustom" value="Place Order" />
+    <!-- Form end -->
+    </form> 
+  </body>
+</html>
